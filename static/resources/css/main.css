@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+  position: relative;
+    background-color: #fff;
+    color: #201f1f;
+    font-family: 'PT Serif', serif, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+/* font */
+
+.carousel-fonts{
+  font-family:'Great Vibes', cursive;
+}
+.carousel-item{
+  height: 500px;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+/* layer */
+.box-1{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.carousel-item img{
+  position: relative;
+  z-index: 0;
+}
+
+/* navbar */
+
+
+
+
+.mynav a{
+  margin-right: 20px;
+  border-bottom: 2px solid transparent;
+}
+
+.mynav a:hover{
+border-bottom: 2px solid #fff;
+}
+
+
+/* animation */
+:root {
+  --animate-duration: 1000ms;
+  --animate-delay: 1s;
+}
+/* icons */
+.fa-facebook:hover {
+  color:#4267B2;
+ }
+ .fa-facebook-f:hover {
+   color:#4267B2;
+  }
+
+.fa-instagram:hover{
+  color: #3f729b;
+}
+
+
+.fa-linkedin:hover{
+  color: #0e76a8;
+}
+
+.fa-linkedin-in:hover{
+  color: #0e76a8;
+}
+
+.fa-twitter:hover{
+  color:#00acee;
+}
+.fa-google-plus-g:hover{
+  color: red;
+}
+/* detailzoom */
