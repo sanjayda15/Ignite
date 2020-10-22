@@ -75,6 +75,9 @@ border-bottom: 2px solid #fff;
   color: #3f729b;
 }
 
+.fa-youtube:hover{
+  color: red;
+}
 
 .fa-linkedin:hover{
   color: #0e76a8;
@@ -97,7 +100,7 @@ border-bottom: 2px solid #fff;
     border-radius: 4px;
     background: #fff;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   padding: 14px 80px 18px 36px;
   cursor: pointer;
 }
@@ -105,6 +108,14 @@ border-bottom: 2px solid #fff;
 .card:hover{
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card img{
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.card img:hover{
+  transform: scale(1.08);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .curtain{
@@ -115,6 +126,7 @@ border-bottom: 2px solid #fff;
 padding: 14px 80px 18px 36px;
 cursor: pointer;
 }
+
 .curtain:hover{
 transform: scale(1.05);
 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
