@@ -71,6 +71,15 @@ border-bottom: 2px solid #fff;
    color:#4267B2;
   }
 
+.fa-building:hover{
+  color: rgb(158, 158, 158);
+}
+.fa-phone-square-alt:hover{
+  color: rgb(158, 158, 158);
+}
+.fa-envelope:hover{
+  color: rgb(158, 158, 158);
+}
 .fa-instagram:hover{
   color: #3f729b;
 }
